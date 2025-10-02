@@ -5,6 +5,10 @@ int main(int argc, char** argv) {
  char* str = (char*)malloc(sizeof(char) * SIZE);
  printf("Катасонов Андрей Сергеевич: \n");
  scanf("%s", str);
+
+ printf("Катасонов Андрей Сергеевич:\n");
+ str = gets(str);
+
  printf("Привет, %s", str);
  return 0;
 }
